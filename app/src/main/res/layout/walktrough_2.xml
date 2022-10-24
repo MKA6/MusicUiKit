@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Hex">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="113dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/group1" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="37dp"
+        android:scaleType="center"
+        android:src="@drawable/image1" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="189dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/path2" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="94dp"
+        android:gravity="center"
+        android:text="Real Time Music News"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold|normal" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="235dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/text1"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="94dp"
+        android:gravity="center"
+        android:text="Nulla ornare semper blandit. Vivamus sagittis, ligula eget interdum tempus, nisl nisl tincidunt ipsum, in venenatis magna ipsum ut dolor"
+        android:textColor="@color/Hex2"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="145dp"
+        android:src="@drawable/page1" />
+
+</RelativeLayout>
